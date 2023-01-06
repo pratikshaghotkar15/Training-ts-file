@@ -1,0 +1,39 @@
+<html>
+<head>
+<script src="jquery-3.6.0.js"></script>
+<head>
+<body>
+<input type="text" id="un"><br>
+<input type="button" value="click" onclick="show();">
+<input type="text" id="uncopy"><br>
+
+<div id="div1">
+hello how are you
+<ul>
+<li>Pune</li>
+<li>mumbai</li>
+</ul>
+</div>
+<input type="button" value="show div html" onclick="display();">
+<br>
+<input type="button" value="show" onclick="showdiv();">&nbsp;
+</div>
+</body>
+</html>
+<script>
+function show()
+{
+alert($("#un").val());
+var x=$("#un").val();
+$("#uncopy").val(x);
+}
+
+function display()
+{
+alert($("#div1").html());
+}
+function showdiv()
+{
+$("#div2").show(3000);
+
+</script>

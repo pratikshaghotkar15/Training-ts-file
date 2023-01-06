@@ -1,0 +1,8 @@
+function restDemo2(count:number,...nolist:string []){
+
+var i;
+for(i=0;i<nolist.length;i++)
+
+console.log(nolist[i]);
+}
+restDemo2(5,"sunil","anil","somu","monu","ravi");

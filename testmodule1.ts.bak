@@ -1,0 +1,3 @@
+import {SecondLargest} from './modulle1';
+var obj=new SecondLargest();
+obj.showsecondlargest(5,45,67,89,34,21);
